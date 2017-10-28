@@ -1,0 +1,25 @@
+{
+  "name": "Type-Ahead",
+  "version": "1.0.0",
+  "description": "A web app that displays suggestions while a user is entering text to a input field.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakethomas/Type-Ahead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakethomas/Type-Ahead/issues"
+  },
+  "homepage": "https://github.com/blakethomas/Type-Ahead#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "path": "^0.12.7"
+  }
+}
