@@ -32,19 +32,8 @@ const renderResults = string => {
     })
   }
 }
-let accumulator = ''
+const $accumulator = document.querySelector('.input')
 
-$searchBar.addEventListener('keydown', event => {
-  if (event.key === 'Backspace') {
-    accumulator = accumulator.substr(0, accumulator.length - 1)
-  } else {
-    accumulator += event.key
-  }
-  renderResults(accumulator)
+$searchBar.addEventListener('keyup', event => {
+  renderResults($accumulator.value)
 })
-
-/*
-setInterval(() => {
-  renderResults()
-}, 1000)
-*/
