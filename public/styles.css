@@ -1,6 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-size: 10px;
   background: url(https://c1.staticflickr.com/4/3489/3748539574_7d1d2696c8_b.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,22 +9,24 @@ body {
   background-size: cover;
 }
 
-h1 {
-  text-align: center;
-}
-
 .searchlabel {
-  color: white;
-  -webkit-text-stroke: 1px gray;
+  color: black;
+  -webkit-text-stroke: 1px black;
   position: absolute;
   bottom: 60%;
   right: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
   transform: translate(50%, -50%);
-  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
 }
 
 .searchbar {
   position: absolute;
+  width: 33%;
   bottom: 60%;
   right: 50%;
   transform: translate(50%, -50%);
@@ -31,8 +34,12 @@ h1 {
 
 .anchor {
   position: absolute;
-  top: 40%;
+  top: 39%;
+  padding-left: 0.8rem;
+  width: 33%;
   right: 50%;
+  font-size: 3em;
+  text-align: center;
   transform: translateX(50%);
 }
 
@@ -40,5 +47,30 @@ h1 {
   background-color: white;
   color: black;
   border-radius: 0.1em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body::after {
+  content: '';
+  background: rgba(255, 255, 255, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.input {
+  height: 3rem;
+  width: 100%;
+  font-size: 3rem;
+  padding-left: 0.5rem;
+  border-radius: 0.1em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.input::placeholder {
+  opacity: 0.2;
 }
