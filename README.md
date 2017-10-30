@@ -8,6 +8,6 @@ HTML5, CSS3, Modern Javascript(ES2015+), Node.js, MongoDB
 $ mongod, $ npm install,$ node seed.js,$ node index.js
 
 # Screenshot
-![screen shot 2017-10-30 at 1 31 34 pm](https://user-images.githubusercontent.com/31449025/32194124-b05d7abe-bd76-11e7-915f-0316005058a6.png)
+![screen shot 2017-10-30 at 1 34 15 pm](https://user-images.githubusercontent.com/31449025/32194258-1d073d62-bd77-11e7-811c-f61b5c6a5940.png)
 
 
