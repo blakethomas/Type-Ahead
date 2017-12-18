@@ -1,5 +1,5 @@
 # Type-Ahead
-A web app that displays suggestions while the user is entering text
+A web app that displays suggestions while the user is entering text.
 
 # Uses
 HTML5, CSS3, Modern Javascript(ES2015+), Node.js, MongoDB
